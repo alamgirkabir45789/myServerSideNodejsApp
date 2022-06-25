@@ -2,6 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+const person = require("./data.json");
 // instantiate an express app
 const app = express();
 // support parsing of application/json type post data
@@ -15,7 +16,9 @@ const PORT = process.env.PORT || 5005;
 app.get("/", function (req, res) {
   res.send("<html><body><h1>Hello World</h1></body></html>");
 });
-
+app.get("/person", (req, res) => {
+  res.send(person);
+});
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
