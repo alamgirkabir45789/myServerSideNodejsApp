@@ -1,0 +1,109 @@
+{
+  "myProject": [
+    {
+      "id": 13,
+      "name": "Garments ERP Project - Front End: React JS(Production)",
+      "description": "This is a ERP Application of Garments",
+      "projectLink": "https://bitbucket.org/rdmerp/erp_production/src/master/ or http://192.168.0.29/nasir/erp-production/-/tree/alamgir",
+      "technology": [
+        "Reactjs",
+        "Redux",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "ReactStrap"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Garments ERP Project - Front End: React JS(Merchandising)",
+      "description": "This is a ERP Application of Garments",
+      "projectLink": "https://bitbucket.org/rdmerp/quadrion.erp/src/alamgir/UI/",
+      "technology": [
+        "Reactjs",
+        "Redux",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "ReactStrap"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "E-Commerce App- ReactJs",
+      "description": "ReactJs Application",
+      "projectLink": "https://github.com/alamgirkabir45789/react-ecommerce-project",
+      "technology": ["Reactjs", "NodeJs", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 1,
+      "name": "C# Practice Project",
+      "description": "C# Practice Project",
+      "projectLink": "https://github.com/alamgirkabir45789/ExamProject",
+      "technology": ["C#"]
+    },
+    {
+      "id": 15,
+      "name": "E-TICKET",
+      "description": "E-TICKET SYSTEM",
+      "projectLink": "https://github.com/alamgirkabir45789/ExamProject",
+      "technology": ["ASP.NET CORE", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 2,
+      "name": "Hospital Management Project",
+      "description": "This is a ASP.Net Cor Project",
+      "projectLink": "https://github.com/alamgirkabir45789/CoreProject_Alamgir",
+      "technology": ["Asp.Net Core", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 3,
+      "name": "Hospital Management Project",
+      "description": "This is a ASP.NET MVC(CodeFast)",
+      "projectLink": "https://github.com/alamgirkabir45789/MvcCodeFastProject_Alamgir",
+      "technology": ["ASP.NET MVC", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 4,
+      "name": "Hospital Management Project",
+      "description": "This is a ASP.NET MVC(DatabaseFast)",
+      "projectLink": "https://github.com/alamgirkabir45789/AspDotNetMvcProject_Alamgir",
+      "technology": ["ASP.NET MVC", "SQL", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 5,
+      "name": "Hospital Management Project",
+      "description": "This is a ASP.NET WEB FORM",
+      "projectLink": "https://github.com/alamgirkabir45789/Asp_Project_Alamgir",
+      "technology": ["ASP.NET WEB FORM", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 6,
+      "name": "MSSQL",
+      "description": "Thi is a SQL PROJECT",
+      "projectLink": "https://github.com/alamgirkabir45789/SqlProject",
+      "technology": ["SQL"]
+    },
+    {
+      "id": 7,
+      "name": "Real Time Chat Application Application",
+      "description": "This is a SignalR Project",
+      "projectLink": "https://github.com/alamgirkabir45789/SignalRProject_Alamgir",
+      "technology": ["Asp.Net Core", "SignalR", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 8,
+      "name": "School Management Project",
+      "description": "This is a ASP.NET WEB API Project",
+      "projectLink": "https://github.com/alamgirkabir45789/SmsCoreApi",
+      "technology": ["ASP.NET WEB API"]
+    },
+    {
+      "id": 9,
+      "name": "Chat Application - NodeJs",
+      "description": "This is a Nodejs Application",
+      "projectLink": "https://github.com/alamgirkabir45789/DoctorInformation",
+      "technology": ["Reactjs", "NodeJs", "HTML", "CSS", "Bootstrap"]
+    }
+  ]
+}
