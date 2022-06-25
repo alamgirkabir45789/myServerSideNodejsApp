@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const person = require("./data.json");
-import myProject from "./fake-db/project.json";
+// import myProject from "./fake-db/project.json";
 // instantiate an express app
 const app = express();
 // support parsing of application/json type post data
@@ -20,9 +20,9 @@ app.get("/", function (req, res) {
 app.get("/person", (req, res) => {
   res.send(person);
 });
-app.get("/project", (req, res) => {
-  res.send(myProject);
-});
+// app.get("/project", (req, res) => {
+//   res.send(myProject);
+// });
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
