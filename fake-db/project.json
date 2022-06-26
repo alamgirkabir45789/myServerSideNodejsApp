@@ -1,5 +1,5 @@
-{
-  "myProject": [
+[
+  [
     {
       "id": 13,
       "name": "Garments ERP Project - Front End: React JS(Production)",
@@ -106,4 +106,4 @@
       "technology": ["Reactjs", "NodeJs", "HTML", "CSS", "Bootstrap"]
     }
   ]
-}
+]
