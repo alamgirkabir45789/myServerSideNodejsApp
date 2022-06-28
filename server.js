@@ -50,26 +50,60 @@ sql.connect(config, function (err) {
 
 // Post Member
 app.post("/api/member", async (req, res) => {
-  const member = {
-    MemberName: req.body.MemberName,
-    ContactNo: req.body.ContactNo,
-  };
-
   // create Request object
   const request = new sql.Request();
-  var stringRequest =
-    "INSERT INTO Member (MemberName, ContactNo) VALUES (" +
-    req.body.MemberName +
-    "," +
-    req.body.ContactNo +
-    ")";
-  request.query(stringRequest, function (err, recordset) {
-    if (err) console.log(err);
-
-    // send records as a response
-    res.send(recordset);
-    console.log(recordset);
-  });
+  request.query(
+    "INSERT INTO Member VALUES('" +
+      req.body.MemberName +
+      "', " +
+      req.body.ContactNo +
+      ")",
+    function (err, recordset) {
+      if (err) console.log(err);
+      // send records as a response
+      res.send(recordset);
+    }
+  );
+});
+// Delete Member
+app.delete("/api/member/:MemberId", async (req, res) => {
+  // create Request object
+  const request = new sql.Request();
+  request.query("DELETE FROM Member WHERE MemberId=" + req.params.MemberId),
+    function (err, recordset) {
+      if (err) console.log(err);
+      // send records as a response
+      res.send(recordset);
+    };
+});
+// GET Member BY ID
+// app.get("/api/getMemberById/:MemberId", async (req, res) => {
+//   // create Request object
+//   const request = new sql.Request();
+//   request.query("SELECT * FROM Member WHERE MemberId = " + req.params.MemberId),
+//     function (err, recordset) {
+//       if (err) console.log(err);
+//       // send records as a response
+//       res.send(recordset);
+//     };
+// });
+// Edit Member
+app.put("/api/member/:MemberId", async (req, res) => {
+  // create Request object
+  const request = new sql.Request();
+  request.query(
+    "UPDATE Member SET [MEMBERNAME] = '" +
+      req.body.MemberName +
+      "', ContactNo = " +
+      req.body.ContactNo +
+      " WHERE MemberId = " +
+      req.body.MemberId
+  ),
+    function (err, recordset) {
+      if (err) console.log(err);
+      // send records as a response
+      res.send(recordset);
+    };
 });
 
 app.get("/", function (req, res) {
